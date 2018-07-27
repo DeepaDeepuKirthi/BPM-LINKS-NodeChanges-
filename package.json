@@ -1,0 +1,14 @@
+{
+  "name": "NodeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "3.2.6",
+    "ibm_db": "^2.4.0",
+    "jade": "*"
+  }
+}

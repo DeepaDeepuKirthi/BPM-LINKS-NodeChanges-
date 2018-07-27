@@ -1,0 +1,122 @@
+@CHARSET "ISO-8859-1";
+ * {
+	box-sizing: border-box;
+}
+ .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+           @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+ .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 600px;
+    }
+    
+#nav{
+
+	background-color:white;
+	/* Black background with transparency */
+	letter-spacing: 2px;
+      border-radius: 0;
+}
+#ul{
+padding:9px 1px;
+}
+ .navbar li a, .navbar .navbar-brand {
+      color: black !important;
+  }
+  .navbar-nav li a:hover {
+      color:  #0000b0!important;
+      background-color: #d3d3d3!important;
+      height:100%;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: blue!important;
+  }
+ @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+ 
+#myNavbar {
+	margin: 0;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+#home {
+	position: relative;
+	margin: 0 auto;
+}
+
+
+
+  body {
+      position: relative; 
+  }
+  #home{padding-top:50px;height:500px;color: #fff;}
+  #about {padding-top:50px;height:500px;color: #fff;}
+  #services {padding-top:50px;height:500px;color: #fff;}
+  #contact {padding-top:50px;height:500px;color: #fff;}
+.loginBody{
+border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 400px;	
+	padding:20px 120px 30px 70px;
+} 
+#loginBody{
+	border: 1px solid black;
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+	    margin-right: 200px;
+	    margin-left: 200px;	
+		padding:20px 30px 30px 30px;
+	} 
+#head11{
+	height:60px;
+}
+#head12{
+	height:400px;
+}
+
+
+.show {display: block;}
+#footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	background-color:black;
+	color:white;
+	padding:15px 32px;
+	text-align:center;
+	font-size:16px;
+}
+#footer{
+	background-color:black;
+	color:white;
+	padding:15px 32px;
+	text-align:center;
+	font-size:16px;
+}
